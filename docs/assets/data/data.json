@@ -1,0 +1,68 @@
+{
+    "Nombre": "Limberth Estrada",
+    "Especialidad": "Desarrollador Web Full Stack",
+    "Sobre_mi": {
+        "presentacion": "Actualmente soy estudiante de Ingenieria en Sistemas en la UTN. Mi pasión por la programación web fue iluminandose gracias a que soy muy autodidacta y por las oportunidades que me fueron apareciendo en el camino y aún lo hacen. Cabe destacar también que mi fuerte esta en la parte del Front-end y próximamente profundizare en la otra vertiente. A modo de cierre y para contar algo más de mi, me destaco por ser una persona flexible, autodidacta, curiosa y honesta. ¡Que sigas disfruntando de lo que queda!",
+        "imagen": "foto-perfil.png",
+        "imagenes_contacto": ["github.logo.png","linkedin-logo.png","mail-logo.png"],
+        "skills": [
+            {   
+                "nombre":"Node.js",
+                "img": "node.png"
+            },
+            {   
+                "nombre":"C#",
+                "img": "csharp.png"
+            },
+            {   
+                "nombre":"React.js",
+                "img": "react.png"
+            },
+            {   
+                "nombre":"Bootstrap",
+                "img": "bootstrap.png"
+            },
+            {   
+                "nombre":"HTML",
+                "img": "html.png"
+            },
+            {   
+                "nombre":"CSS",
+                "img": "css.png"
+            },
+            {   
+                "nombre":"JavaScript",
+                "img": "js.png"
+            }
+            ]
+    },
+    "Proyectos": [
+        {
+            "nombre": "Libreria e-commerce",
+            "enlace": "https://vicath-libreria.herokuapp.com",
+            "enlace_git":"https://github.com/limberthEstrada/Proyecto-DH-Libreria-Vicath.git",
+            "imagen": "vicath.png"
+        },
+        {
+            "nombre": "Sitio web para encontrar mascotas perdidas",
+            "enlace": "https://petsius.netlify.app",
+            "enlace_git":"https://github.com/limberthEstrada/Petsius-CodoACodo-Limberth-Estrada.git",
+            "imagen": "petsius.png"
+        },
+        {
+            "nombre": "Copia Mercado Libre",
+            "enlace": "https://mercado-liebre-estrada.herokuapp.com",
+            "enlace_git":"https://github.com/limberthEstrada/mercadoLiebreEstrada.git",
+            "imagen": "meli.png"
+        },
+        {
+            "nombre": "Portafolio",
+            "enlace": "https://www.google.com.ar",
+            "enlace_git":"https://github.com/limberthEstrada/portfolio-Frontend.git",
+            "imagen": "port.png"
+        }
+    ],
+    "navegacion": ["¿Quien soy?","Mis proyectos","Contactame"],
+    "celular": "1139046424",
+    "cursos_realizados": ["Full stack Node.js - Digital House","Full stack Python - CodoACodo","Diseño UI/UX - EducacionIT","TestingQA Manual - CocaCola","Marketing Digital - Junior Achievement"]
+}
