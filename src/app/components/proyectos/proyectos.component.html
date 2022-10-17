@@ -1,0 +1,16 @@
+<section role="Mis proyectos" id="mis-proyectos">
+    <h1 class="mis-proy-h1">Mis proyectos</h1>
+    <div class="contenedor-proyectos">
+        <article class="proy-ind" *ngFor="let proyecto of proyectos">
+            <img class="proyecto-img" src="./assets/img/{{proyecto.imagen}}" alt="Proyecto1">
+            <div class="descripcion-tecnica">
+                <p>{{proyecto.nombre}}</p>
+                <ul>
+                    <li class="botones-proy plan-a"><a [href]="proyecto.enlace">Ver demo</a></li>
+                    <li class="botones-proy plan-b"><a [href]="proyecto.enlace_git">Ir al repositorio</a></li>
+                </ul>
+            </div>
+        </article>
+      
+    </div>
+</section>

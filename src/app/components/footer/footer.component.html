@@ -1,0 +1,20 @@
+<footer>
+    <div class="secciones">
+        <p>Navegación</p>
+        <ul>
+            <li *ngFor="let nav of navegacion">{{nav}}</li>
+        </ul>
+    </div>
+    <div class="telefono-x">
+        <p>Celular de contacto</p>
+        <ul>
+            <li>{{celular}}</li>
+        </ul>
+    </div>
+    <div class="cursos-realizados">
+        <p>Cursos realizados</p>
+        <ul>
+            <li *ngFor="let curso of cursos">{{curso}}</li>
+        </ul>
+    </div>
+  </footer>
