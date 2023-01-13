@@ -15,8 +15,12 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       this.navegacion = data.navegacion,
-      this.celular = data.celular,
-      this.cursos = data.cursos_realizados
+      this.celular = data.celular
+    })
+    
+    this.datosPortfolio.obtenerDatosCursos().subscribe(data => {
+      this.cursos = data
+      console.log(data)
     })
   }
 

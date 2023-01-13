@@ -9,11 +9,20 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class SobreMiComponent implements OnInit {
 
   descripcion:any;
+  contacto:any;
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe(data => {
-      this.descripcion = data.Sobre_mi.presentacion;
+    this.datosPortfolio.obtenerDatosPersona().subscribe(data => {
+      this.descripcion = data[0].presentacion;
+      console.log(")))))))))))))")
+      console.log(data)
+    })
+
+    this.datosPortfolio.obtenerDatosRed().subscribe(data => {
+      this.contacto = data;
+      console.log("NDEAAAAAAAAaa")
+      console.log(data)
     })
   }
 }
